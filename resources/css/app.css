@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #13131f;
+    --accent-1: #00f5ff;
+    --accent-2: #ff006e;
+    --accent-3: #ffbe0b;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0b0;
+    --border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    overflow-x: hidden;
+}
