@@ -181,7 +181,7 @@ export default function Portfolio() {
                         <ProjectCard
                             title="Application Web GED pour la DGB (Version 2)"
                             description="Refonte complète de l'application GED pour la DGB avec des technologies modernes."
-                            tags={['Laravel 12', 'Shadcn', 'PostgreSQL', 'TailwindCSS', 'ReactJS', 'NodeJS']}
+                            tags={['Laravel 12', 'Shadcn', 'PostgreSQL', 'TailwindCSS', 'ReactJS', 'NodeJS', 'Git']}
                         />
                         <ProjectCard
                             title="Mail-Doc | Application Web Gestion des Courriers DDPP"
@@ -194,18 +194,18 @@ export default function Portfolio() {
                             tags={['VBA Excel (Optimisation de processus par macros complexes)']}
                         />
                         <ProjectCard
-                            title="Modernisation du Système d'Archivage DGB | Responsable des travaux informatiques"
+                            title="Modernisation du Système d'Archivage DGB | Responsable des travaux informatiques et Responsable Technique Adjoint"
                             description="Pilotage technique de la transition numérique des archives physiques vers un écosystème digital sécurisé."
                         />
                         <ProjectCard
-                            title="Application Help-Edu | Aide à l'Éducation | en-cours de développement"
+                            title="Application Help-Edu | Aide à l'Éducation | En-cours de développement"
                             description="Application web dynamique orientée vers le soutien scolaire et l'accès aux ressources éducatives."
                             tags={['NextJS', 'Shadcn', 'MongoDB', 'TailwindCSS', 'ExpressJS', 'NodeJS']}
                         />
                         <ProjectCard
                             title="NdapUn-Toit | Plateforme Immobilière"
                             description="Solution de recherche de logement au Cameroun: Conception d'une interface intuitive permettant la mise en relation locataires/propriétaires. Site : https://www.ndapuntoit.space"
-                            tags={['Laravel 12', 'Shadcn', 'PostgreSQL', 'TailwindCSS', 'ReactJS', 'NodeJS']}
+                            tags={['Laravel 12', 'Shadcn', 'PostgreSQL', 'TailwindCSS', 'ReactJS', 'NodeJS', 'Git']}
                         />
                         <ProjectCard
                             title="CCE - Cristal Clear English | Apprentissage des Langues  "
@@ -213,9 +213,19 @@ export default function Portfolio() {
                             tags={['React Native', 'ReactJS', 'TailwindCSS', 'Shadcn', 'Expo']}
                         />
                         <ProjectCard
-                            title="Site Web Cristal Clear English"
+                            title="Site Web Cristal Clear English (Version 1)"
                             description="Conception d'un site web pour l'apprentissage des cours d'anglais en ligne. Site : https://www.cristalclearenglish.site"
-                            tags={['Laravel 12', 'Shadcn', 'PostgreSQL', 'TailwindCSS', 'ReactJS', 'NodeJS']}
+                            tags={['WordPress', 'Woo-commerce', 'MySQL', 'HTML', 'PHP', 'CSS']}
+                        />
+                        <ProjectCard
+                            title="Site Web Cristal Clear English (Version 2)"
+                            description="Conception d'un site web pour l'apprentissage des cours d'anglais en ligne."
+                            tags={['Laravel 12', 'Shadcn', 'PostgreSQL', 'TailwindCSS', 'ReactJS', 'NodeJS', 'InertiaJS', 'Git']}
+                        />
+                        <ProjectCard
+                            title="Développement Personnel | Applications Test"
+                            description="Clonage des application Airbnb, Netflix, Youtube, Messenger."
+                            tags={['NextJS', 'Shadcn', 'MongoDB', 'TailwindCSS', 'ExpressJS', 'NodeJS', 'Laravel 12', 'Shadcn', 'PostgreSQL', 'InertiaJS', 'ReactJS']}
                         />
                     </div>
                 </section>
@@ -227,17 +237,24 @@ export default function Portfolio() {
                     </h2>
                     <div className="grid md:grid-cols-2 gap-8">
                         <ProjectCard
-                            title="Consultant Archiviste | NC Consulting Sarl et CINVCORSA"
+                            title="Consultant Archiviste | NC Consulting Sarl"
                             description="Consultant archiviste dans le cadre du 'Projet de modernisation du système d'archivage de la Direction Générale du Budget (DGB) au Ministère des Finances'. Missions : Assistance à la DGB dans le classement des dossiers actifs, mise en place de la gestion électronique des documents, rédaction de rapports et comptes-rendus, planification des activités, contrôle des répertoires de saisie, génération de cotes d'archives, production de cadre de classement, leadership et management du projet."
+                            location="Ministère des Finances, Yaoundé"
+                        />
+                        <ProjectCard
+                            title="Consultant Archiviste | CINVCORSA"
+                            description="Consultant archiviste dans le cadre de la 'Modernisation du système d'archivage d'Election's Cameroon (ELECAM)'. Missions : Assistance à ELECAM dans le classement des dossiers actifs, mise en place de la gestion électronique des documents, rédaction de rapports et comptes-rendus, planification des activités, contrôle des répertoires de saisie, génération de cotes d'archives, production de cadre de classement, leadership et management du projet."
+                            location="Election's Cameroon, Yaoundé"
                         />
                         <ProjectCard
                             title="Employé Temporaire | Elections Cameroun (ELECAM)"
                             description="Chargé de la révision des listes électorales, inscription des électeurs, toilettage du fichier électoral, distribution des cartes d'électeurs et gestion globale du fichier électoral."
+                            location="Antennes communales: Bamendjou, Bangou, Bandjoun"
                         />
                         <ProjectCard
                             title="Expert Technique | NC Consulting Sarl"
-                            description="Modernisation du Système d'archivage du Ministère de l'Agriculture et du Développement Rural (MINADER) : Formation sur la gestion, le traitement et la sécurisation des archives physiques."
-                            location="Fondation Mouna, Yaoundé"
+                            description="Atelier sur le renforcement du système d'archivage physique et numérique de la DCOB (Division du Controle Budgetaire de l'Audit et de la Depense)"
+                            location="Hotel Jabi, Mbankomo"
                         />
                         <ProjectCard
                             title="Expert Technique | NC Consulting Sarl"
@@ -251,8 +268,13 @@ export default function Portfolio() {
                         />
                         <ProjectCard
                             title="Expert Technique | NC Consulting Sarl"
-                            description="Séminaire de formation sur la gestion et le suivi des archives de la DDPP."
-                            location="Ministère des Finances/Bâtiment A"
+                            description="Séminaire de formation sur la gestion et le suivi des archives de la DDPP (Direction de Depense du Personnel et des Pensions)."
+                            location="Ministère des Finances (Bâtiment A), Yaoundé"
+                        />
+                        <ProjectCard
+                            title="Expert Technique | NC Consulting Sarl"
+                            description="Séminaire de formation sur la prise en main de l'application des gestion des archives de la Direction Générale du Budget (ARCHIDOC-DGB)."
+                            location="Hôtel Boun's, Yaoundé"
                         />
                     </div>
                 </section>
@@ -265,7 +287,7 @@ export default function Portfolio() {
                     <div className="grid md:grid-cols-3 gap-8">
                         <SkillCard
                             title="Frontend"
-                            tags={['React', 'TypeScript', 'Next.js', 'Tailwind', 'Shadcn-ui', 'Bootstrap']}
+                            tags={['React', 'TypeScript', 'Next.js', 'Tailwind', 'Shadcn-ui', 'Bootstrap', 'Html', 'Css']}
                         />
                         <SkillCard
                             title="Backend"
