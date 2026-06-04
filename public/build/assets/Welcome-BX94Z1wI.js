@@ -1,0 +1,1 @@
+import{j as e,H as o}from"./app-jiZ9n0Ni.js";import r from"./Porfolio-BBkXRwT0.js";function m({auth:t,laravelVersion:s,phpVersion:a}){return e.jsxs(e.Fragment,{children:[e.jsx(o,{title:"Welcome"}),e.jsx(r,{})]})}export{m as default};
